@@ -1,0 +1,219 @@
+/*CSS Stylesheet */
+
+body {height: 100%; margin: 0;}
+ul, ol {list-style: none;}
+.clearfix {clear: both;}
+body {
+    font-size: 2.1em;
+    text-align: center;
+    font-family:"American Typewriter", sans-serif;
+}
+h1 {
+display: inline;
+    font-family:monospace;
+    margin-bottom: -5.5%;
+    font-size: 2.0em;
+    text-align: center;
+}
+h2{
+display: inline;
+    font-family:monospace;
+     font-size: .9em;
+     position: relative;
+    top:-30px;
+    padding-bottom: 5px;
+   
+}
+/*
+h4{
+    display: inline;
+    font-family:monospace;
+font-size:.7em;
+     padding-top: 20px;
+}
+*/
+nav {
+position: fixed;
+    top: 20px;
+}
+.logo {
+display: block;
+    position: fixed;
+   bottom: 1%;
+    right: 1%;
+    z-index: 1;
+    padding-top: .5%;
+    border-radius: 10%;
+/*  a*/
+}
+.logo:hover {
+background-color: rgba(0,0,0,.1);
+    opacity: 20%;  
+}
+#section0 h1 {
+position: relative;
+    display: block;
+    bottom: 0%;
+}
+section {
+/*border: 1px solid black;*/
+    width: 60%;
+    height: 65%;
+    margin-left: 18%;
+    margin-bottom: 17%;
+/*    overflow:hidden;*/
+    position: relative;
+        top:-7%;
+}
+
+h3 {
+/*å*/
+/*    border: 1px solid red;*/
+    font-family:monospace;
+     font-size: .6em;
+    position: relative;
+    bottom:4%;
+    padding-bottom: 7px;
+       
+}
+
+h5 {
+/*display: inline;*/
+/*    border: 1px solid green;*/
+    position: relative;
+    font-family:monospace;
+     font-size: .6em;
+    position: absolute;
+    bottom: -5%;
+    right: 10%;
+    left: 10%;
+    color: grey;
+    padding: 5px;
+}
+
+h5:hover {
+color:black;
+}
+h6:hover {
+color:black;
+}
+
+h6 {
+display: inline;
+/*    border: 1px solid green;*/
+    position: relative;
+    font-family:monospace;
+     font-size: .7em;
+    position: absolute;
+    bottom:-2%;
+    right: 30%;
+    left: 30%;
+}
+.dtext {
+position: absolute;
+    right: 1%;
+    left: 1%;
+/*    border: 3px solid blue;*/
+    overflow: visible;
+}
+
+.dtext h3 {
+    display: block;
+    position: relative;
+    bottom:20px;
+    padding-bottom: 20px;
+    padding-top: 6px;
+
+}
+
+.dtext h5 {
+      display: block;
+ position: absolute;
+    right: 55%;
+    left: 1%;
+    margin-bottom: 3%;
+    padding-top: 5px;
+      font-size: .6em;
+        bottom:-2%;
+}
+
+.dtext h6 {
+     display: block;
+    font-family:monospace;
+     font-size: .6em;
+ position: absolute;
+    left: 55%;
+    right: 1%;
+  margin-bottom: 4%;
+    padding-top: 5px;
+}
+
+
+img {
+display: inline;
+    padding-top: 3%
+}
+
+a {
+color: grey;
+}
+.end {
+position: relative;
+    top:20%;
+    font-size: 1.6em;
+}
+
+.sd1 {
+display: block;
+    position: relative;
+/*    left:4%;*/
+     font-family:monospace;
+     font-size: .9em;
+}
+
+.sd {
+position: relative;
+   top:260px;
+         font-size: .7em;
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        font-size: 1.4em;
+    }
+    section {
+/*border: 1px solid black;*/
+    width: 100%;
+    height: 65%;
+    margin-left: -1%;
+/*    margin-bottom: -17%;*/
+/*    overflow:hidden;*/
+    position: relative;
+        top:-7%;
+    }
+    h5{
+    position: absolute;
+    bottom: -20%;
+    right: 10%;
+    left: 10%;
+    color: grey;
+    padding: 9px;
+        background-color: white;
+    }
+    
+    h3{
+    position: relative;
+    bottom:-12%;
+  
+         padding: 9px;
+        background-color: white;
+    }
+}
+/*
+@media screen and (max-width: 400px) {
+    body {
+        font-size: 1.1em;
+    }
+}
+*/
+
